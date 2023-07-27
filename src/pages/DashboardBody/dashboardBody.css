@@ -1,0 +1,24 @@
+.dashboardBody .content {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 60px);
+  margin-left: 100px;
+}
+
+.dashboardBody .content h1 {
+  color: rgb(248, 248, 0);
+}
+
+.dashboardBody .content p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* TITLE CSS */
+.dashboardBody .content .title p {
+  color: white;
+}
+
+.dashboardBody .content .title span {
+  color: rgb(248, 248, 0);
+}

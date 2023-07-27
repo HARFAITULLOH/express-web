@@ -1,0 +1,56 @@
+.service .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 100px 0px 100px;
+}
+
+.service .content h1, .service .content h5 {
+  color: rgb(248, 248, 0);
+}
+
+.service .content p {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.service .content h5 {
+  font-size: 20px;
+}
+
+.service .content .menu {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.service .content .menu .layanan {
+  width: 30%;
+  text-align: center;
+  background-color: rgba(82, 82, 220, 0.544);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* PHONE CSS */
+@media screen and (max-width: 414px) {
+  .service .content {
+    width: 100%;
+    margin: 0px;
+    padding: 80px 20px 0px;
+    box-sizing: border-box;
+    align-items: start;
+  }
+
+  .service .content .menu {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .service .content .menu .layanan {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,34 @@
+.update .content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 100px 0px 100px;
+}
+
+.update .content h1 {
+  color: rgb(248, 248, 0);
+}
+
+.update .content p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* TITLE CSS */
+.update .content .title {
+  margin-bottom: 10px;
+}
+
+.update .content .title p {
+  color: white;
+}
+
+.update .content .title span {
+  color: rgb(248, 248, 0);
+}
+
+/* BODY CSS */
+.update .content .body {
+  display: grid;
+  row-gap: 10px;
+  width: 50%;
+}

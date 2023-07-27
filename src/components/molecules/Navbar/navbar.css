@@ -1,0 +1,91 @@
+.navbar {
+  width: 100%;
+  background-color: rgb(82, 82, 220);
+  height: 60px;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+/* CSS MENU */
+.navbar .menu{
+  display: flex;
+}
+
+.navbar .menu a {
+  color: white;
+  padding: 0px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar .menu a.active {
+  font-weight: 650;
+}
+
+/* CSS BTN-NAVBAR */
+.navbar .btn-nav{
+  display: flex;
+  align-items: center;
+}
+
+.navbar .btn-nav Button{
+  background-color: white;
+  color: rgb(82, 82, 220);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.navbar .btn-nav Button:hover{
+  background-color: rgb(204, 204, 204);
+}
+
+/* PHONE CSS */
+@media screen and (max-width: 414px) {
+  .navbar {
+    padding: 0px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 'logo menu';
+    position: fixed;
+  }
+
+  .navbar .brand-logo {
+    grid-area: logo;
+  }
+  
+  .navbar .humberger-menu{
+    display: grid;
+    gap: 5px;
+    width: 30px;
+  }
+
+  .navbar .humberger-menu span{
+    background-color: red;
+    box-sizing: border-box;
+  }
+
+  .navbar .menu-page .content{
+    background-color: rgb(82, 82, 220);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .navbar .menu {
+    display: none;
+  }
+  
+  .navbar .btn-nav {
+    display: none;
+  }
+}
